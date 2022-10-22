@@ -1,6 +1,7 @@
 <?php
     include 'header.php';
 ?>
+
 <div class="card">
             <div class="card-header">Transcript Details</div>
 			<div class="card-body">
@@ -9,7 +10,6 @@
                             <label class="form-label">Student Roll No </label>
                             <input type="text" name="roll_no" id="roll_no" class="form-control" />
                         </div>
-                       
                         <div class="mb-3">
                             <label class="form-label">First Name</label>
                             <input type="text" name="f_name" class="form-control" id="f_name" value="" />
@@ -36,7 +36,7 @@
                         </div>
 
                         <div class="text-center mt-4 mb-2">
-						<input type="submit" name="register_button" class="btn btn-primary" value="Register" />
+						<input type="submit" name="register_button" class="btn btn-primary" value="Apply for Transcript" />
                         </div>
                     </form>
                 </div>
@@ -44,6 +44,7 @@
         </div>
     </div>
 </div>
+
 <?php
     include 'footer.php';
 ?>
