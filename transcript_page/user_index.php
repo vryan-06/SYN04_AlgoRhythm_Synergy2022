@@ -8,7 +8,16 @@ include 'header.php';
 
 
 ?>
-
+<h3>Apply</h3>
+<div>
+    <form action="issue_application.php" method="POST">
+        <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
+            <input type="submit" name="login_button" class="btn btn-primary" value="Apply for Transcript" />
+        </div>
+    </form>
+</div>
+<br><br>
+<h3> Current Applications </h3>
 <table class="table table-dark">
     <tr>
         <th>Roll No</th>
@@ -45,15 +54,10 @@ include 'header.php';
     }
 
     ?>
+    
 </table>
 
-    <div>
-        <form method="POST">
-            <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                <input type="submit" name="login_button" class="btn btn-primary" value="Login" />
-            </div>
-        </form>
-    </div>
+    
 
 <?php
 include 'footer.php';

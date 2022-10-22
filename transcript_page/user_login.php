@@ -48,7 +48,10 @@ if(isset($_POST["login_button"]))
                 if($row['student_password'] == $formdata['student_password'])
 				{
                     $_SESSION['roll_no'] = $row['user_unique_no'];
-                    header('location:user_index.php');
+                    // header('location:issue_application.php');
+
+					header('location:user_index.php');
+
                 }
                 else
                 {

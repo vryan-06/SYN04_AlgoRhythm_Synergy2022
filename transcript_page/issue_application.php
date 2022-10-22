@@ -96,6 +96,7 @@
 			$statement->execute($data);
 
             $success = 'You have successfully registered!!';
+            header('location:user_index.php');
 
         }
     }
