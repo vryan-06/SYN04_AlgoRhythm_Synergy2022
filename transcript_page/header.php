@@ -12,7 +12,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <meta name="generator" content="">
-        <title>Transcript Application System</title>
+        <title>Transcription Portal System</title>
         <link rel="canonical" href="">
         <!-- Bootstrap core CSS -->
         <link href="asset/css/simple-datatables-style.css" rel="stylesheet" />
@@ -51,7 +51,7 @@
     			<header class="pb-3 mb-4 border-bottom">
                     <div class="row">
                         <a href="index.php" class="d-flex align-items-center text-dark text-decoration-none">
-                            <span class="fs-4">Transcript Application System</span>
+                            <span class="fs-4"><h2>AntiGrafo</span>
                         </a>
                     </div>
     			</header>
