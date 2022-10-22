@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 22, 2022 at 01:16 PM
+-- Generation Time: Oct 22, 2022 at 04:47 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -24,6 +24,30 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `application_form`
+--
+
+CREATE TABLE `application_form` (
+  `roll_no` int(5) NOT NULL,
+  `f_name` varchar(100) NOT NULL,
+  `l_name` varchar(100) NOT NULL,
+  `branch` varchar(100) NOT NULL,
+  `semester` int(2) NOT NULL,
+  `cgpa` float NOT NULL,
+  `sgpa` float NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `application_form`
+--
+
+INSERT INTO `application_form` (`roll_no`, `f_name`, `l_name`, `branch`, `semester`, `cgpa`, `sgpa`) VALUES
+(9149, 'Meet', 'Satra', 'Artificial Intelligence', 5, 9.62, 9.45),
+(9432, 'Hisbaan', 'Sayed', 'Computer Engineering', 4, 9.21, 9.43);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `student_registration`
 --
 
@@ -39,6 +63,7 @@ CREATE TABLE `student_registration` (
 --
 
 INSERT INTO `student_registration` (`roll_no`, `f_name`, `l_name`, `student_password`) VALUES
+(9149, 'Meet', 'Satra', '91492'),
 (9348, 'Akshit', 'G', '12389'),
 (9432, 'Hisbaan', 'Sayed', '94321');
 
