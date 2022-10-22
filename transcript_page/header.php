@@ -15,9 +15,9 @@
         <title>Transcript Application System</title>
         <link rel="canonical" href="">
         <!-- Bootstrap core CSS -->
-        <link href="<?php echo base_url(); ?>asset/css/simple-datatables-style.css" rel="stylesheet" />
-        <link href="<?php echo base_url(); ?>asset/css/styles.css" rel="stylesheet" />
-        <script src="<?php echo base_url(); ?>asset/js/font-awesome-5-all.min.js" crossorigin="anonymous"></script>
+        <link href="asset/css/simple-datatables-style.css" rel="stylesheet" />
+        <link href="asset/css/styles.css" rel="stylesheet" />
+        <script src="asset/js/font-awesome-5-all.min.js" crossorigin="anonymous"></script>
         <!-- Favicons -->
         <link rel="apple-touch-icon" href="" sizes="180x180">
         <link rel="icon" href="" sizes="32x32" type="image/png">
@@ -55,8 +55,6 @@
                         </a>
                     </div>
     			</header>
-        </main>
-    </body>
-</html>
+ 
 
     			
