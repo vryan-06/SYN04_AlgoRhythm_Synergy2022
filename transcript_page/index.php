@@ -24,7 +24,7 @@
 
 			<h2>TPO Login</h2>
 			<p></p>
-			<a href="tpo_login.php" class="btn btn-outline-light">TPO Login</a>
+			<a href="admin_login.php" class="btn btn-outline-light">TPO Login</a>
 
 		</div>
 
