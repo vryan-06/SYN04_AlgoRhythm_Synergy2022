@@ -52,6 +52,7 @@
                     <div class="row">
                         <a href="index.php" class="d-flex align-items-center text-dark text-decoration-none">
                             <span class="fs-4"><h2>AntiGrafo</span>
+                            <!-- <img src="/images/header_logo.jpg" alt="LOGO" style="width:5px;height:6px;"> -->
                         </a>
                     </div>
     			</header>
