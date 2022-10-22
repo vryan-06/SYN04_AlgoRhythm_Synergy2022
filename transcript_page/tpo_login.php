@@ -46,7 +46,7 @@ if (isset($_POST["login_button"])) {
             foreach ($statement->fetchAll() as $row) {
                 if ($row['tpo_password'] == $formdata['tpo_password']) {
                     $_SESSION['tpo_id'] = $row['tpo_id'];
-                    header('location:tpo/index.php');
+                    header('location:tpo_index.php');
                 } else {
                     $message = '<li>Wrong Password</li>';
                 }
